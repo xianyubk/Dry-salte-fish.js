@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr 20fr 1fr;
+    overflow: hidden;
+}
+#app{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 4fr 0 0.5fr 0 4fr;
+}
+#dry-button{
+    cursor: pointer;
+    background-color: rgb(0, 112, 146);
+    border: none;
+    color: #fff;
+}
+#dry-button:hover{
+    filter: brightness(1.2);
+}
+#dry-button:active{
+    filter: brightness(0.8);
+}
+textarea{
+    box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.3);
+    width: 100vw;
+    font-size: 1.5em;
+    font-family: Consolas, serif;
+    font-weight: 500;
+    color: #000;
+    background-color: #ffffff;
+    padding: 2px 3px;
+}
