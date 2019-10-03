@@ -4,7 +4,7 @@
 由于名字太长，所以下面都简称为“fish.js”。
 
 
-### Getting Started
+## Getting Started
 
 好吧，我太懒了。明天再写吧。
 
